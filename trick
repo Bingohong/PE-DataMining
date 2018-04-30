@@ -1,0 +1,5 @@
+source /etc/profile
+
+sudo cp /usr/local/cuda-8.0/lib64/libcurand.so.8.0 /usr/local/lib/libcurand.so.8.0 && sudo ldconfig
+
+sudo ln -sf /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.4.0.7 /usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudnn.so.4  
